@@ -1,12 +1,12 @@
 package org.example;
 
-import org.example.utils.CustomArrayList;
-import org.example.utils.CustomList;
+import org.example.utils.customList.customLinkedListImpl.CustomLinkedList;
+import org.example.utils.customList.CustomList;
 
 public class Main {
     public static void main(String[] args) {
 
-        CustomList<String> list = new CustomArrayList<>();
+        CustomList<String> list = new CustomLinkedList<>();
         list.add("first");
         list.add("second");
         list.add("third");

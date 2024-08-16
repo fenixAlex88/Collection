@@ -1,4 +1,6 @@
-package org.example.utils;
+package org.example.utils.customList.customArrayListImpl;
+
+import org.example.utils.customList.CustomList;
 
 import java.util.Iterator;
 
@@ -56,7 +58,7 @@ public class CustomArrayList<E> implements CustomList<E> {
 
     @Override
     public Iterator<E> iterator() {
-        return new CustomArrayIterator<E>(elements, size);
+        return new CustomArrayIterator<>(elements, size);
     }
 
 

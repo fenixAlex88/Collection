@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.example.utils.customList.customArrayListImpl;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
