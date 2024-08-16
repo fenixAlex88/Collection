@@ -87,4 +87,5 @@ public class CustomLinkedList<E> implements CustomList<E> {
     public Iterator<E> iterator() {
         return new CustomLinkedIterator<>(head);
     }
+
 }

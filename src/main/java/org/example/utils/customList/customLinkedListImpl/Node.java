@@ -1,5 +1,7 @@
 package org.example.utils.customList.customLinkedListImpl;
 
+import java.util.Objects;
+
 public class Node<E> {
     private E element;
     private Node<E> next;
