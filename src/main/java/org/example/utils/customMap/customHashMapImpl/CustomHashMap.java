@@ -5,6 +5,7 @@ import org.example.utils.customList.customLinkedListImpl.CustomLinkedList;
 import org.example.utils.customMap.CustomMap;
 
 import java.util.NoSuchElementException;
+import java.util.Queue;
 
 public class CustomHashMap<K, V> implements CustomMap<K, V> {
     private static final int INITIAL_CAPACITY = 16;
